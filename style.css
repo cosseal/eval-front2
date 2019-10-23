@@ -1,0 +1,124 @@
+* {
+    box-sizing: border-box;
+}
+
+body, html {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+
+}
+
+#main {
+    position: absolute ;
+    width: 80%;
+    margin: auto;
+    background: rgba(169, 169, 169, 0.54);
+    padding-top: 1em;
+    padding-left:0.5em;
+    padding-right: 1em;
+    padding-bottom: 0.5em;
+    font-family: "helvetica",sans-serif;
+    color: white;
+    font-size: medium;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+#bloc_gauche {
+    width: 70%;
+    float: left;
+}
+
+#rect {
+    background: #67a3ff;
+    width: 66.66%;
+    float: left;
+    padding:3%;
+}
+
+#descr {
+    font-size: 13px;
+    text-transform: none;
+}
+
+.bloc_or {
+    width: 33.33%;
+    background: #ff8d1c;
+    float: left;
+    padding: 10.6%;
+}
+.bloc_vert {
+    width: 33.33%;
+    background: #09ff10;
+    float: left;
+    padding: 10.6%;
+}
+
+.bloc_gy {
+    width: 33.33%;
+    background: greenyellow;
+    float: left;
+    padding: 9%;
+}
+
+.bloc_rose {
+    width: 33.33%;
+    background: rgba(255, 47, 40, 0.6);
+    float: left;
+    padding: 10.6%;
+}
+.bloc_bleu {
+    width: 33.33%;
+    background: #67a3ff;
+    float: left;
+    padding: 10.6%;
+}
+
+a {
+    text-decoration: none;
+    color: white;
+}
+
+#bloc_droit {
+    width: 30%;
+    float: right;
+    height: 100%;
+}
+
+img {
+    width: 100%;
+}
+
+/* mediaqueries pour tablettes*/
+@media (max-width:1338px)
+{
+    #main {
+    width: 100%;
+    padding:0;}
+
+    #rect {
+    width: 100%;
+    min-height: 33.33%}
+}
+
+
+
+/*pour smartphone*/
+@media (max-width: 812px) {
+    #main {
+        width: 100%;
+        padding: 0;}
+    #bloc_gauche {
+        width: 100%;
+    }
+    #bloc_droit {
+        width: 100%;
+    }
+    .bloc_bleu, .bloc_gy,
+    .bloc_or, .bloc_rose, .bloc_vert {
+        width: 100%;
+    }
+}
+
+
