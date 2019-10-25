@@ -32,10 +32,10 @@ body, html {
 
 #rect {
     background: #67a3ff;
-    width: 36.05vw;
+    width: 36vw;
     height: 18vw;
-    float: left;
     padding:3%;
+    float: left;
 }
 
 #descr {
